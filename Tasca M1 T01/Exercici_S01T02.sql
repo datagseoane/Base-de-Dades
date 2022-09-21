@@ -6,4 +6,4 @@
 SELECT person_name AS Nom, person_country AS País, person_dob AS data_naixement
 FROM  movies.tb_person
 WHERE person_dod IS NULL
-order by person_dob ASC;
+ORDER BY person_dob ASC;
