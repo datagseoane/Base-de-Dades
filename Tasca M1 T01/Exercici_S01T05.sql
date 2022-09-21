@@ -4,3 +4,4 @@
 
 INSERT INTO movies.tb_genre (genre_id, genre_name, created_by_user, created_date) 
 VALUES (69, 'Documental', 'seoaneg', '2022-09-20');
+
