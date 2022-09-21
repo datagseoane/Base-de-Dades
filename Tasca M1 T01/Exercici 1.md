@@ -4,7 +4,7 @@ Mostra les característiques principals de l'esquema creat i explica les diferen
 Nuestra base de datos está compuesta por un total de **5 tablas**, tal y como muestra la siguiente imagen.
 ![Exercici 1_a](https://user-images.githubusercontent.com/29567860/191556935-41e1f7ff-d765-4bc5-b8bb-c4841b97bac4.PNG)
 
-Los datos de los cuales se compone la base datos son un extracto de peliculas de los 1990 y 2000 en las cuales se han almacenado el título, reparto, productor/guionista, el año de estreno, genero de la pelicula...
+Los datos son un extracto de peliculas de los 1990 y 2000 en las cuales se han almacenado el título, reparto, productor/guionista, el año de estreno, genero de la pelicula...
 
 Para el reparto se indicará el nombre, país, fecha de nacimiento y de defunción (si fuera necesaria).
 
