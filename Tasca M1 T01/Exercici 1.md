@@ -2,35 +2,31 @@
 *Mostra les característiques principals de l'esquema creat i explica les diferents taules i variables que hi ha.*
 
 ## Esquema
-La base de datos es una recopilación de peliculas de los 1990 y 2000 en las cuales se han almacenado el título, reparto, productor/guionista, el año de estreno, genero de la pelicula...
-
-La estructura de la base de datos está compuesta por un total de **5 tablas**.
+La base de datos es una recopilación de peliculas de los 90 y principios de los 2000.
+La estructura de la base de datos está compuesta por un total de **5 tablas**,en las cuales se han almacenado el título, reparto, productor/guionista, el año de estreno, genero de la pelicula...
 
 ![Exercici 1_a](https://user-images.githubusercontent.com/29567860/191556935-41e1f7ff-d765-4bc5-b8bb-c4841b97bac4.PNG)
 
-**Figura 01:** Crear base de datos en MYSQL
+**Figura 01:** Tablas base de datos "movies".
 
-En los registros se han tenido en cuenta las siguientes:
+En los registros de cada una de las filas almacenadas se han tenido en cuenta:
 - Cada película tiene un género (acción, terror, comedia, etc.)
 - Cada película tiene uno o más actores.
 - Cada película es dirigida por uno o más directores (es posible que un director actúe en una película, incluyendo la que esté dirigiendo).
 - Cada actor tiene un rol en la película.
 
+![image](https://user-images.githubusercontent.com/29567860/191693533-28ef3672-5724-42aa-bd59-7c05ae89defa.png)
+
+**Figura 02:** Muestra de los primeros registros de la tabla "tb_movies".
+
 En este caso se ha creado la primera columna, la columna Id, como columna de clave principal cuyo contenido no puede estar duplicado en la misma tabla y nos permite identificar a cada registro de una manera única.
 
-**Figura 02:** La tabla de base de datos tb_movies
-
-Tabla: Estructura encargada de alojar la información de la base de datos
-Campos: son cada una de las columnas de una tabla, cada campo almacena un campo concreto
-Registros: Cada una de las filas de la tabla que agrupa toda la información de un mismo elemento
-Clave: Es un campo cuyo contenido no puede estar duplicado en la misma tabla y permite identificar a cada registro de una manera unica.
-
-## Entidades
-Teniendo en cuenta las tablas, nuestras entidades son las siguientes:
+## Variables
+Teniendo en cuenta las tablas, la figura 03 muestra las característica o propiedades asociadas a las diferentes variables que conforman cada una de las tablas.
 
 ![entidades](https://user-images.githubusercontent.com/29567860/191691312-98680a9e-b18c-4555-b83f-ac72e09c3436.png)
 
-**Figura 03:** Entidades
+**Figura 03:** Variables base de datos "movies".
 
 ### Relaciones
 A continuación en el diagrama *entidad - relación* se muestran los vínculos establecidos entre las diferentes tablas, mediante las cuales nos permitiran trabajar con los datos de las diferentes tablas como si se tratara de una sola.
